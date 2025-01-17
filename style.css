@@ -1,0 +1,49 @@
+body {
+    font-family: "Open Sans", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li {
+    margin-right: 45px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(154, 150, 144);
+}
+
+nav>p {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>p>span {
+    color: #FD6E0A;
+}
+
+#button-prymary {
+    width: 100px;
+    height: 34px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+}
+.banner{
+    display: flex;
+}
+.banner>#banner-right>img{
+    width: 100%;
+}
