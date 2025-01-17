@@ -6,6 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0px 100px;
+    background-color: #FFF8F3;
 }
 
 nav>ul {
@@ -41,9 +42,97 @@ nav>p>span {
     border: 0;
     color: white;
 }
-.banner{
+
+.contact {
+    width: 100px;
+    height: 34px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 103px;
+    align-items: center;
+
+}
+
+.banner>#banner-right>img {
+    width: 100%;
+}
+
+header {
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #FFF8F3;
+}
+
+.banner-buttons {
     display: flex;
 }
-.banner>#banner-right>img{
-    width: 100%;
+
+.download-wrape {
+    margin-right: 19px;
+    width: 20%;
+}
+
+#banner-left {
+    width: 500px;
+}
+
+#about {
+    background-color: #FFF8F3;
+    width: 48%;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 41px 40px;
+    margin: 50px auto;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px
+}
+#whatido{
+    width:53%;
+    margin: 50px auto;
+}
+#whatido>p{
+    padding: 20px 60px;
+    text-align: center;
+}
+#allskills{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#allskills>.skills{
+    background-color: rgb(207, 207, 200);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#resumewrapper{
+    width: 53%;
+    margin: 20px auto;
+}
+#resumewrapper>h3{
+    text-align: center;
+    margin: 90px 0px;
+}
+#resume-left-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.resume{
+    border-bottom: 1px solid rgb(154, 150, 144);
+}
+.last-resume{
+    border-bottom: none;
 }
