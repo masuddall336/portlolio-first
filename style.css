@@ -65,7 +65,7 @@ nav>p>span {
 }
 
 header {
-    background-image: url(/images/header_bg.png);
+    background-image: url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-color: #FFF8F3;
