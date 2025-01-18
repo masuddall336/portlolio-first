@@ -147,25 +147,23 @@ header {
 }
 
 #footwrape {
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 23%;
-    padding-bottom: 5%;
-    grid-area: 200px;
     background-color: #FFF8F3;
-    margin-top: 100px;
+    display: flex;
+    gap: 16px;
+    padding: 30px 356px;
 }
-
-#left-footer>p {
-    padding-right: 150px;
+#left-footer{
+    max-width: 49%;
 }
-
-#right-footer>Form>input {
-    width: 272px;
-    padding: 10px 0px 10px 5px;
+#right-footer>form>input {
+    width: 100%;
     margin-bottom: 20px;
-    background-color: #ebe7df;
-    border: none;
-    border-radius: 5px;
-    display: block;
+    padding: 10px 0px;
+    padding-left: 5px;
+}
+
+textarea {
+    width:  100%;
+   height: 100px;
+    margin-bottom: 20px;
 }
