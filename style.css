@@ -97,42 +97,75 @@ header {
 .address {
     display: flex;
     justify-content: space-around;
-    margin-top:40px
+    margin-top: 40px
 }
-#whatido{
-    width:53%;
+
+#whatido {
+    width: 53%;
     margin: 50px auto;
 }
-#whatido>p{
+
+#whatido>p {
     padding: 20px 60px;
     text-align: center;
 }
-#allskills{
+
+#allskills {
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
 }
-#allskills>.skills{
+
+#allskills>.skills {
     background-color: rgb(207, 207, 200);
     padding: 10px 20px;
     border-radius: 10px;
 }
-#resumewrapper{
+
+#resumewrapper {
     width: 53%;
     margin: 20px auto;
 }
-#resumewrapper>h3{
+
+#resumewrapper>h3 {
     text-align: center;
     margin: 90px 0px;
 }
-#resume-left-right{
+
+#resume-left-right {
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
-.resume{
+
+.resume {
     border-bottom: 1px solid rgb(154, 150, 144);
 }
-.last-resume{
+
+.last-resume {
     border-bottom: none;
+}
+
+#footwrape {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 23%;
+    padding-bottom: 5%;
+    grid-area: 200px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+}
+
+#left-footer>p {
+    padding-right: 150px;
+}
+
+#right-footer>Form>input {
+    width: 272px;
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 20px;
+    background-color: #ebe7df;
+    border: none;
+    border-radius: 5px;
+    display: block;
 }
